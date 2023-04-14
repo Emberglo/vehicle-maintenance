@@ -1,0 +1,6 @@
+<ion-list id="vehicle-list">
+  <ion-list-header id="vehicle-list-title">Your Vehicles</ion-list-header>
+  <ion-item *ngFor="let vehicle of vehicles" lines="none">
+    <ion-label>{{ vehicle.year }} {{ vehicle.name }}</ion-label>
+  </ion-item>
+</ion-list>

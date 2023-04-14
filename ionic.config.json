@@ -1,0 +1,7 @@
+{
+  "name": "vehicle-maintenance",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
